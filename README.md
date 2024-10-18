@@ -32,8 +32,10 @@ A simplified bookstore API that allows users to browse books, add books to a car
    PORT=6000
    MONGODB_URL=<your-mongodb-url>
    SECRET_KEY=<your-secret-key>
-        ```
    JWT_EXPIRY_TIME=<jwt-expiry-time>
+        ```
 
 6. **Now run the project**:
+       ```bash
    npm start
+       ```
