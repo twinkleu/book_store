@@ -16,18 +16,24 @@ A simplified bookstore API that allows users to browse books, add books to a car
 
    ```bash
    git clone <repository-url>
-   cd bookstore-api
+   cd book_store
 
    ```
 
 2. **Install the dependencies**:
+   
+    ```bash
    npm install
+    ```
 
-3. **Add dotenv file and below credentials in it**:
+4. **Add dotenv file and below credentials in it**:
+      
+    ```bash
    PORT=6000
    MONGODB_URL=<your-mongodb-url>
    SECRET_KEY=<your-secret-key>
+        ```
    JWT_EXPIRY_TIME=<jwt-expiry-time>
 
-4. **Now run the project**:
+6. **Now run the project**:
    npm start
